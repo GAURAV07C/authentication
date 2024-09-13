@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+    <div class="container">
+        <p>Hello <strong>
+            <%= name %>
+        </strong> </p>
+        <p>Please click on below link to verify your email</p>
+        <a href="<%= url %>" target="_blank" >click on this url</a>
+        <p>if you are not able to click above link then pls follow below url</p>
+        <p><%= url %></p>
+        <%- include('../partials/footer.ejs') %>
+
+
+    </div>
+</body>
+</html>
